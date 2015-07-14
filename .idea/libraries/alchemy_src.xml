@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="alchemy-src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/alchemy-source/AlchemyComponents/src" />
+      <root url="file://$PROJECT_DIR$/alchemy-source/AlchemyEffects/src" />
+      <root url="file://$PROJECT_DIR$/alchemy-source/AlchemyIntermediaries/src" />
+      <root url="file://$PROJECT_DIR$/alchemy-source/AlchemyProcess/src" />
+      <root url="file://$PROJECT_DIR$/alchemy-source/AlchemyUtil/src" />
+    </SOURCES>
+  </library>
+</component>

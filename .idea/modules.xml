@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alchemy.iml" filepath="$PROJECT_DIR$/Alchemy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/alchemy-service/alchemy-service.iml" filepath="$PROJECT_DIR$/alchemy-service/alchemy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alchemy-runner/alchemy-runner.iml" filepath="$PROJECT_DIR$/alchemy-runner/alchemy-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alchemy-source/alchemy-source.iml" filepath="$PROJECT_DIR$/alchemy-source/alchemy-source.iml" />
     </modules>
   </component>
 </project>
