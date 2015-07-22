@@ -15,7 +15,8 @@ import java.io.InputStreamReader;
  */
 public class AlchemyRunner {
 
-    public static void main(String [] args) throws IOException {
+
+    public static void main(String[] args) throws IOException {
         BufferedReader inputReader = new BufferedReader(new InputStreamReader(System.in));
         Vessel selectedVessel = null;
         Base selectedBase = null;
@@ -25,7 +26,7 @@ public class AlchemyRunner {
         String userInput = null;
 
         AlchemyUtil.writeLine("Welcome to Alchemy! Press Enter to begin.");
-        while(userInput == null) {
+        while (userInput == null) {
             userInput = inputReader.readLine();
         }
 
@@ -43,8 +44,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedVessel = AlchemyDataLoader.vial;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Vessel.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.vessels);
                     }
@@ -56,8 +56,8 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedVessel = AlchemyDataLoader.flask;
-                    }
-                    else {
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Vessel.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.vessels);
                     }
                     break;
@@ -68,8 +68,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedVessel = AlchemyDataLoader.potion;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Vessel.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.vessels);
                     }
@@ -81,8 +80,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedVessel = AlchemyDataLoader.mistPotion;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Vessel.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.vessels);
                     }
@@ -98,7 +96,7 @@ public class AlchemyRunner {
         AlchemyUtil.outputComponentNames(AlchemyDataLoader.bases);
 
         confirmation = "n";
-        while(!confirmation.equals("y")) {
+        while (!confirmation.equals("y")) {
             userInput = inputReader.readLine();
 
             switch (userInput) {
@@ -109,8 +107,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedBase = AlchemyDataLoader.water;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Base.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.bases);
                     }
@@ -122,8 +119,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedBase = AlchemyDataLoader.organicOil;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Base.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.bases);
                     }
@@ -135,8 +131,7 @@ public class AlchemyRunner {
                     confirmation = inputReader.readLine();
                     if (confirmation.equals("y")) {
                         selectedBase = AlchemyDataLoader.crudeOil;
-                    }
-                    else {
+                    } else {
                         AlchemyUtil.writeLine("Please select another Base.");
                         AlchemyUtil.outputComponentNames(AlchemyDataLoader.bases);
                     }
@@ -146,121 +141,116 @@ public class AlchemyRunner {
                     AlchemyUtil.writeLine("Please select one of the options listed.");
                     break;
             }
-
-            AlchemyUtil.writeLine("Next, select the ingredient you would like to use.");
-            AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
-            confirmation = "n";
-
-            while(!confirmation.equals("y")) {
-                userInput = inputReader.readLine();
-
-                switch (userInput) {
-
-                    case "Frost Blossom":
-                        AlchemyUtil.outputComponentSummary(AlchemyDataLoader.frostBlossom);
-                        AlchemyUtil.writeLine("Do you want to use the Frost Blossom? (y/n)");
-                        confirmation = inputReader.readLine();
-                        if (confirmation.equals("y")) {
-                            selectedIngredient = AlchemyDataLoader.frostBlossom;
-                        }
-                        else {
-                            AlchemyUtil.writeLine("Please select another Base.");
-                            AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
-                        }
-                        break;
-
-                    case "Talivay Leaf":
-                        AlchemyUtil.outputComponentSummary(AlchemyDataLoader.talivayLeaf);
-                        AlchemyUtil.writeLine("Do you want to use the Talivay Leaf? (y/n)");
-                        confirmation = inputReader.readLine();
-                        if (confirmation.equals("y")) {
-                            selectedIngredient = AlchemyDataLoader.talivayLeaf;
-                        }
-                        else {
-                            AlchemyUtil.writeLine("Please select another Base.");
-                            AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
-                        }
-                        break;
-
-                    case "Reuden Sprout":
-                        AlchemyUtil.outputComponentSummary(AlchemyDataLoader.reudenSprout);
-                        AlchemyUtil.writeLine("Do you want to use the Reuden Sprout? (y/n)");
-                        confirmation = inputReader.readLine();
-                        if (confirmation.equals("y")) {
-                            selectedIngredient = AlchemyDataLoader.reudenSprout;
-                        }
-                        else {
-                            AlchemyUtil.writeLine("Please select another Base.");
-                            AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
-                        }
-                        break;
-
-                    default:
-                        AlchemyUtil.writeLine("Please select one of the options listed.");
-                        break;
-                }
-
-                AlchemyUtil.writeLine("Finally, select a catalyst.");
-                AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
-                confirmation = "n";
-
-                while(!confirmation.equals("y")){
-                    userInput = inputReader.readLine();
-                    switch (userInput) {
-                        case "Silver Shard":
-                            AlchemyUtil.outputComponentSummary(AlchemyDataLoader.silverShard);
-                            AlchemyUtil.writeLine("Do you want to use the silver shard?");
-                            confirmation = inputReader.readLine();
-                            if (confirmation.equals("y")) {
-                                selectedCatalyst = AlchemyDataLoader.silverShard;
-                            }
-                            else {
-                                AlchemyUtil.writeLine("Please select another Base.");
-                                AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
-                            }
-                            break;
-
-                        case "Pure Water":
-                            AlchemyUtil.outputComponentSummary(AlchemyDataLoader.pureWater);
-                            AlchemyUtil.writeLine("Do you want to use the Pure Water?");
-                            confirmation = inputReader.readLine();
-                            if (confirmation.equals("y")) {
-                                selectedCatalyst = AlchemyDataLoader.pureWater;
-                            }
-                            else {
-                                AlchemyUtil.writeLine("Please select another Base.");
-                                AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
-                            }
-                            break;
-
-                        case "Life Essence":
-                            AlchemyUtil.outputComponentSummary(AlchemyDataLoader.lifeEssence);
-                            AlchemyUtil.writeLine("Do you want to use the Life Essence?");
-                            confirmation = inputReader.readLine();
-                            if (confirmation.equals("y")) {
-                                selectedCatalyst = AlchemyDataLoader.lifeEssence;
-                            }
-                            else {
-                                AlchemyUtil.writeLine("Please select another Base.");
-                                AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
-                            }
-                            break;
-
-                        default:
-                            AlchemyUtil.writeLine("Please select another Base.");
-                            AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
-                    }
-
-                    userInput = null;
-                    AlchemyUtil.writeLine("All components have been selected. Press Enter to begin brewing your Solution.");
-                    solution = AlchemyProcess.createSolution(selectedVessel, selectedBase, selectedIngredient, selectedCatalyst);
-                    AlchemyUtil.outputComponentSummary(solution);
-                    userInput = inputReader.readLine();
-                }
-            }
-
         }
-        userInput = inputReader.readLine();
 
+        AlchemyUtil.writeLine("Next, select the ingredient you would like to use.");
+        AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
+        confirmation = "n";
+
+        while (!confirmation.equals("y")) {
+            userInput = inputReader.readLine();
+
+            switch (userInput) {
+
+                case "Frost Blossom":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.frostBlossom);
+                    AlchemyUtil.writeLine("Do you want to use the Frost Blossom? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedIngredient = AlchemyDataLoader.frostBlossom;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Base.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
+                    }
+                    break;
+
+                case "Talivay Leaf":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.talivayLeaf);
+                    AlchemyUtil.writeLine("Do you want to use the Talivay Leaf? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedIngredient = AlchemyDataLoader.talivayLeaf;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Base.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
+                    }
+                    break;
+
+                case "Reuden Sprout":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.reudenSprout);
+                    AlchemyUtil.writeLine("Do you want to use the Reuden Sprout? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedIngredient = AlchemyDataLoader.reudenSprout;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Base.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.ingredients);
+                    }
+                    break;
+
+                default:
+                    AlchemyUtil.writeLine("Please select one of the options listed.");
+                    break;
+            }
+        }
+
+        AlchemyUtil.writeLine("Finally, select a catalyst.");
+        AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
+        confirmation = "n";
+
+        while (!confirmation.equals("y")) {
+            userInput = inputReader.readLine();
+            switch (userInput) {
+                case "Silver Shard":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.silverShard);
+                    AlchemyUtil.writeLine("Do you want to use the silver shard? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedCatalyst = AlchemyDataLoader.silverShard;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Catalyst.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
+                    }
+                    break;
+
+                case "Pure Water":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.pureWater);
+                    AlchemyUtil.writeLine("Do you want to use the Pure Water? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedCatalyst = AlchemyDataLoader.pureWater;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Catalyst.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
+                    }
+                    break;
+
+                case "Life Essence":
+                    AlchemyUtil.outputComponentSummary(AlchemyDataLoader.lifeEssence);
+                    AlchemyUtil.writeLine("Do you want to use the Life Essence? (y/n)");
+                    confirmation = inputReader.readLine();
+                    if (confirmation.equals("y")) {
+                        selectedCatalyst = AlchemyDataLoader.lifeEssence;
+                    } else {
+                        AlchemyUtil.writeLine("Please select another Catalyst.");
+                        AlchemyUtil.outputComponentNames(AlchemyDataLoader.catalysts);
+                    }
+                    break;
+
+                default:
+                    AlchemyUtil.writeLine("Please select one of the options listed.");
+                    break;
+            }
+        }
+
+        userInput = null;
+        AlchemyUtil.writeLine("All components have been selected. Press Enter to begin brewing your Solution.");
+        while (userInput == null) {
+            userInput = inputReader.readLine();
+        }
+        solution = AlchemyProcess.createSolution(selectedVessel, selectedBase, selectedIngredient, selectedCatalyst);
+        AlchemyUtil.outputComponentSummary(solution);
+        userInput = inputReader.readLine();
     }
 }
+

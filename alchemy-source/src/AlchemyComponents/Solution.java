@@ -27,7 +27,7 @@ public class Solution extends AlchemyComponent {
         this.intensity = mixture.getIntensity();
         this.doses = mixture.getDoses();
         this.volatility  = mixture.getVolatility() < 0? 0 : mixture.getVolatility();
-        this.solutionName = mixture.getEffectDescription() + " " +  mixture.getVesselType();
+        this.solutionName = mixture.getVesselType() + " of " + mixture.getEffectDescription();
     }
 
     public static Solution createComponent(final String solutionName, final AlchemyEffect effect, final double intensity, final int doses, final int volatility) {

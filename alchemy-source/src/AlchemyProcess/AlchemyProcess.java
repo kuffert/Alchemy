@@ -22,19 +22,19 @@ public class AlchemyProcess {
     }
 
     public static VesselAndBaseMixture combineVesselAndBase(final Vessel vessel, final Base base) {
-        System.out.println("Combining AlchemyComponents.Vessel and AlchemyComponents.Base...");
+        System.out.println("Combining Vessel and Base...");
         return VesselAndBaseMixture.createMixture(vessel, base);
     }
 
     public static VesselBaseAndIngredientMixture combineVesselBaseAndIngredient(final VesselAndBaseMixture mixture, final Ingredient ingredient) {
-        System.out.println("Combining Mixture with AlchemyComponents.Ingredient...");
+        System.out.println("Combining Mixture with Ingredient...");
         VesselBaseAndIngredientMixture vesselBaseAndIngredientMixture = VesselBaseAndIngredientMixture.createMixture(mixture, ingredient);
         AlchemyEffect.applyIngredientModifications(vesselBaseAndIngredientMixture);
         return vesselBaseAndIngredientMixture;
     }
 
     public static Solution concoctSolution(final VesselBaseAndIngredientMixture mixture, final Catalyst catalyst) {
-        System.out.println("Combining Mixture with AlchemyComponents.Catalyst...");
+        System.out.println("Combining Mixture with Catalyst...");
         AlchemyEffect.applyCatalystModifications(mixture, catalyst);
         return Solution.createComponent(mixture);
     }

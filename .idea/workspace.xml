@@ -22,38 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlchemyDataLoader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AlchemyRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6500509">
-              <caret line="258" column="17" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
+            <state vertical-scroll-proportion="10.536114">
+              <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlchemyUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyUtil/AlchemyUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
-              <folding>
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,21 +87,21 @@
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/AlchemyObject.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyMixtures/VesselAndBaseMixture.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyMixtures/VesselBaseAndIngredientMixture.java" />
-        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyProcess/AlchemyProcess.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/AlchemyComponent.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Base.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Catalyst.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Ingredient.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Vessel.java" />
-        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Solution.java" />
-        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/AlchemyEffect.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/DosageEffect.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/IngredientEffect.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/IntensityEffect.java" />
-        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/NoEffect.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/VolatilityEffect.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyUtil/AlchemyUtil.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java" />
+        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/AlchemyEffect.java" />
+        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/NoEffect.java" />
+        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Solution.java" />
+        <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyProcess/AlchemyProcess.java" />
         <option value="$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyRunner.java" />
       </list>
     </option>
@@ -144,7 +119,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-16" />
     <option name="y" value="-16" />
-    <option name="width" value="3232" />
+    <option name="width" value="3216" />
     <option name="height" value="1744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -171,8 +146,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +217,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlchemyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,7 +324,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="Al&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java&#10;AlchemyU&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;AlchemyCOm&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/AlchemyComponent.java&#10;Base&#9;PSI&#9;JAVA://AlchemyComponents.Base&#10;AlchemyUtil&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;Alchemy&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;AlchemyUt&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;Da&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java&#10;Soluti&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java&#10;Ca&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Catalyst.java&#10;Ingredient&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Ingredient.java&#10;Vess&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Vessel.java&#10;Solution&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java&#10;IngredientEffect&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyEffects/IngredientEffect.java&#10;Solutio&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java" />
+    <property name="SearchEverywhereHistoryKey" value="AlchemyProce&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyProcess/AlchemyProcess.java&#10;Runner&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyRunner.java&#10;Ingredient&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyEffects/IngredientEffect.java&#10;Data&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java&#10;NoEffect&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyEffects/NoEffect.java&#10;AlchemyProcess&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyProcess/AlchemyProcess.java&#10;Al&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java&#10;AlchemyU&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;AlchemyCOm&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/AlchemyComponent.java&#10;Base&#9;PSI&#9;JAVA://AlchemyComponents.Base&#10;AlchemyUtil&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;Alchemy&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;AlchemyUt&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyUtil/AlchemyUtil.java&#10;Da&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java&#10;Soluti&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java&#10;Ca&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Catalyst.java&#10;Vess&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Vessel.java&#10;Solution&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java&#10;IngredientEffect&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyEffects/IngredientEffect.java&#10;Solutio&#9;FILE&#9;file://C:/Users/chris/Documents/GitHub/Alchemy/alchemy-source/src/AlchemyComponents/Solution.java" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -545,8 +524,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-16" y="-16" width="3216" height="1744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,10 +535,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31436136" sideWeight="0.49875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31436136" sideWeight="0.49875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1653125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16520101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -586,7 +565,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -595,6 +574,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Vessel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Catalyst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -638,7 +659,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,8 +670,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,29 +785,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyMixtures/VesselAndBaseMixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08532778">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyMixtures/VesselBaseAndIngredientMixture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5078044">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyProcess/AlchemyProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,46 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Vessel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5525494">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82101977">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/IngredientEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89490116">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/DosageEffect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77627474">
@@ -845,50 +809,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/AlchemyEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77627474">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/IntensityEffect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77627474">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73152965">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/NoEffect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="false" />
+            <element signature="e#386#387#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#809#810#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,18 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82101977">
           <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Catalyst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,16 +834,109 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
           <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Vessel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43336725">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4750763">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Ingredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34384537">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Catalyst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34384537">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyMixtures/VesselAndBaseMixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/AlchemyEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyDataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.8311292">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/NoEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyEffects/IngredientEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8311292">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyComponents/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyProcess/AlchemyProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57045966">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -935,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alchemy-source/src/AlchemyRunner/AlchemyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6500509">
-          <caret line="258" column="17" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
+        <state vertical-scroll-proportion="10.536114">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

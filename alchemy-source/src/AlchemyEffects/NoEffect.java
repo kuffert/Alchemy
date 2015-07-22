@@ -17,7 +17,9 @@ public class NoEffect extends AlchemyEffect {
     }
 
     public final void applyEffect(final VesselBaseAndIngredientMixture mixture) {
-        mixture.setEffectDescription(description);
+        if (mixture.getEffectDescription().equals("")) {
+            mixture.setEffectDescription(description);
+        }
     }
 
     public final String summarizeEffect() {
